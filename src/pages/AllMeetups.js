@@ -8,7 +8,7 @@ function AllMeetupsPage() {
   useEffect(() => {
     setIsLoading(true)
     fetch(
-      'https://react-getting-started-b1308-default-rtdb.europe-west1.firebasedatabase.app/meetups.json'
+      '***'
       ).then(response => {
         return response.json()
       }).then(data => {
